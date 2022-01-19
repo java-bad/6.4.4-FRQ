@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Sound {
+public class SoundA {
     // the array of values in this sound; guaranteed not to be null.
     private int[] samples = { 40, 2532, 17, -2300, -17, -4000, 2000, 1048, -420, 33, 15, -32, 2030, 3223 };
 
@@ -30,7 +30,7 @@ public class Sound {
 
     public static void main(String[] args) {
 
-        Sound s = new Sound();
+        SoundA s = new SoundA();
         System.out.println("The original array is: " + Arrays.toString(s.samples));
         System.out.println("limitAmplitude(2000) should return 5 " +
                 "and returned " + s.limitAmplitude(2000));
