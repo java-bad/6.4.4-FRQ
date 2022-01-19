@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Sound {
-    // the array of values in this sound; guaranteed not to be null
+    // the array of values in this sound; guaranteed not to be null.
     private int[] samples = { 40, 2532, 17, -2300, -17, -4000, 2000, 1048, -420, 33, 15, -32, 2030, 3223 };
 
     /**
